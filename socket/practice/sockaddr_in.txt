@@ -1,0 +1,11 @@
+struct sockaddr_in{
+	u8 	sin_len;		//结构struct sockaddr_in的长度
+	u8	sin_family;		//通常为AF_INET
+	u16	sin_port;		//16位的端口号,网络字节序
+	struct in_addr sin_addr;	//IP地址32位
+	char	sin_zero[8];		//备用
+};
+
+struct in_addr{
+	u32 s_addr;
+};

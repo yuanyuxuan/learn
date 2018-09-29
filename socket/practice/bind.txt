@@ -1,0 +1,5 @@
+int bind(
+	int sockfd,
+	const struct sockaddr *my_addr,
+	socklen_t addrlen
+);

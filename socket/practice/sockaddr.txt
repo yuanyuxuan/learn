@@ -1,0 +1,6 @@
+struct sockaddr{		//套接字地址结构
+	sa_family_t sa_family;	//协议族
+	char sa_data[14];	//协议族数据
+}
+//sa_family 类型为unsigned short
+typedef unsigned short sa_family_t;
